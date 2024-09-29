@@ -14,7 +14,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    axios.get('/api/books', { headers: { 'Cache-Control': 'no-cache' } })
+    axios.get('../api/books', { headers: { 'Cache-Control': 'no-cache' } })
       .then(response => {
         console.log('Response data:', response.data);
         if (Array.isArray(response.data)) {
