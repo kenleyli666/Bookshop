@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const pics = [
   { src: '/images/hl-01.jpg', alt: 'Dog', name: 'dog' },
-  { src: '/images/girl.jpeg', alt: 'Girl', name: 'girl' },
+  { src: '/images/hl-02.jpg', alt: 'Girl', name: 'girl' },
   { src: '/images/jp-01.jpg', alt: 'Pig', name: 'pig' }
 ];
 
