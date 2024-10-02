@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const pics = [
-  { src: '/images/dog.jpeg', alt: 'Dog', name: 'dog' },
+  { src: '/images/hl-01.jpg', alt: 'Dog', name: 'dog' },
   { src: '/images/girl.jpeg', alt: 'Girl', name: 'girl' },
-  { src: '/images/pig.jpeg', alt: 'Pig', name: 'pig' }
+  { src: '/images/jp-01.jpg', alt: 'Pig', name: 'pig' }
 ];
 
 const Product1 = () => {
